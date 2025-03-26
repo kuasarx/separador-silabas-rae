@@ -1,4 +1,3 @@
-```markdown
 # Separador de Sílabas RAE (PHP) 🇪🇸
 
 [![PHP Version Require](http://poser.pugx.org/kuasarx/separador-silabas-rae/require/php)](https://packagist.org/packages/kuasarx/separador-silabas-rae)
