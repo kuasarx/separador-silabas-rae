@@ -1,0 +1,40 @@
+{
+    "name": "kuasarx/separador-silabas-rae",
+    "description": "Implementación en PHP de las reglas de división silábica del español según la RAE, con manejo de variantes y estrategias de prefijos.",
+    "type": "library",
+    "keywords": ["php", "silabas", "rae", "español", "linguistica", "separador", "silabacion", "nlp"],
+    "homepage": "https://github.com/kuasarx/separador-silabas-rae",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Camacho",
+            "email": "kuasarx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4 || ^8.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuasarx\\Linguistica\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kuasarx\\Linguistica\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit tests",
+        "test-coverage": "phpunit tests --coverage-html coverage"
+    }
+}
